@@ -1,0 +1,129 @@
+<html>
+    <head>
+        <style>
+            body{
+                background-image: url("images/001.jpg");
+                background-size: contain;
+                background-repeat: repeat;
+                background-position: 50%;
+                background-attachment: fixed;
+                
+                
+            }
+            nav{
+    width: 90%; height: 10%;
+    background:none;
+    display: flex; justify-content:center;
+    align-items:stretch;
+    background-position: 100%;
+    
+  
+    }
+    nav .mainmenu{
+    width: 100%;
+    display: inline-flex; justify-content: space-around;
+    text-decoration: none;
+    background-attachment: fixed;
+    position: fixed;
+    }
+    
+
+    
+        </style>
+        <link rel="short icon" type="image/jpg" href="images/21.jpg">   </link> 
+    
+        <nav>
+          <div class = "mainmenu">
+              <a href="home.html"> <i style="color: white ; font-family: Antonio ;font-style: normal; font-size: 40px;">Home  </i></a>
+     <a href="services.html"> <i style="color: white ; font-family: Antonio ;font-style: normal; font-size: 40px;">Services </i></a>
+     <a href="about us.html"> <i style="color: white ; font-family: Antonio ;font-style: normal; font-size: 40px;">About us </i></a>
+     <a href="contact us.html"> <i style="color: white ; font-family: Antonio ;font-style: normal; font-size: 40px;">Contact us  </i></a>
+     <a href="gallery.html"> <i style="color: white ; font-family: Antonio ;font-style: normal; font-size: 40px;">Gallery </i></a>
+          </div style="center">
+          </nav>
+    
+    
+      </head>
+
+
+    <body >
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <style>
+          
+          }
+          </style>
+          
+          
+        
+          
+          <div class="slideshow-container">
+          
+          <div class="mySlides fade">
+          
+            <img src="images/r44.jpg" width="100%" height="80%">
+            
+          </div>
+          
+          
+          <div class="mySlides fade">
+            
+            <img src="images/55.jpg" width="110%" height="80%">
+            
+          </div>
+          
+          <div class="mySlides fade">
+            
+            <img src="images/50.png" width="110%" height="80%">
+            
+          </div>
+          
+          </div>
+          <br>
+          
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+          
+          <script>
+          let slideIndex = 0;
+          showSlides();
+          
+          function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {slideIndex = 1}    
+            for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex-1].style.display = "block";  
+            dots[slideIndex-1].className += " active";
+            setTimeout(showSlides, 1500); 
+          }
+          </script>
+        
+
+<p style="color: rgb(241, 6, 6); font-size: 60px;text-align: left; font-family: Oswald Regular; ">The World's Largest Nonalcoholic Beverage Company</p>
+<p style="color: white; font-family: Antonio; text-align: left; font-size: 25px;"> Pepsi is a carbonated soft drink manufactured by PepsiCo. Originally created and developed in 1893 by Caleb Bradham and introduced as Brad's Drink, it was renamed as Pepsi-Cola in 1898, and then shortened to Pepsi in 1961.
+</p>
+<img src="images/51.jpg" width="100%" height="90%">
+<img src="images/20.png" width="100%" height="90%">
+        <a href="https://www.pepsi.com/.com/" target="_blank "> <p style="color: red ; font-family: Pristina ;font-size: 25px;text-align: center;text-decoration: none;"> Pepsi.org </p></a>
+        
+        
+        
+        <p style="color: rgb(219, 6, 6);font-size: 50px;text-align: center;font-family: Short Baby;"> "Live for now"</p> 
+
+
+
+
+        <p style="color:white; font-size: 170%; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-style: groove; border-color:rgb(128, 41, 0); background: grey; "><marquee scrollamount="8"> PEPSI, THE MANUFACTURERS OF YOUR NUMBER 1 SOFT DRINKS.</marquee></p>
+
+        </body>
+</html>
